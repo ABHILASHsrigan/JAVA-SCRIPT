@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+
+    <div class="banner" style="height: 200%; width: 100%; background-color: aqua;">
+        <div class="calculator" style="position: absolute; top: 25%; left: 28%;">
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" id="text" placeholder="enter the digit" style="background-color: aqua; height: 20px; width: 110%; color: black;"></td>
+                <td><input type="button" value="C" class="H" onclick="clr()" style="background-color: aquamarine; position: absolute; top: 30%;"></td>
+            </tr>
+    
+            <tr>
+                <td><input type="button" value="1" class="H" onclick="get(1)"></td>
+                <td><input type="button" value="2" class="H" onclick="get(2)"></td>
+                <td><input type="button" value="3" class="H" onclick="get(3)"></td>
+                <td><input type="button" value="+" class="H" onclick="get('+')"></td>
+            </tr>
+    
+            <tr>
+                <td><input type="button" value="4" class="H" onclick="get(4)"></td>
+                <td><input type="button" value="5" class="H" onclick="get(5)"></td>
+                <td><input type="button" value="6" class="H" onclick="get(6)"></td>
+                <td><input type="button" value="-" class="H" onclick="get('-')" ></td>
+            </tr>
+    
+            <tr>
+                <td><input type="button" value="7" class="H" onclick="get(7)" style="position: absolute; top: 110%;"></td>
+                <td><input type="button" value="8" class="H" onclick="get(8)" style="position: absolute; top: 110%;"></td>
+                <td><input type="button" value="9" class="H" onclick="get(9)" style="position: absolute; top: 110%;"></td>
+                <td><input type="button" value="*" class="H" onclick="get('*')" style="position: absolute; top: 110%;"></td>
+            </tr>
+    
+            <tr>
+                <td><input type="button" value="." class="H" onclick="get('.')"  style="position: absolute; top: 150%;"></td>
+                <td><input type="button" value="0" class="H" onclick="get(0)"  style="position: absolute; top: 150%;"></td>
+                <td><input type="button" value="=" class="H" onclick="equation()"  style="position: absolute; top: 150%;"></td>
+                <td><input type="button" value="/" class="H" onclick="get('/')" style="position: absolute; top: 150%;"></td>
+            </tr>
+        </table>
+       
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
