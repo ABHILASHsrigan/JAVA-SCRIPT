@@ -1,17 +1,14 @@
 # My Project
 
-# This project demonstrates [what it does].
+This project demonstrates [what it does].
 
 ## Watch the Demo Video
 
-<video width="640" height="360" controls>
-  <source src="C:\Users\admin\Desktop\basic of js" type="video/mp4">
-  
-</video>
+[![Watch the video](C:\Users\admin\Desktop\basic of js)](C:\Users\admin\Desktop\basic of js)
 
 ## Installation
 
 To get started, clone this repository:
 
-
-git clone https://github.com/ABHILASHsrigan/day-14 html to java/color background.git
+```bash
+git clone https://github.com/ABHILASHsrigan/day - 14 html to java / color background .git
