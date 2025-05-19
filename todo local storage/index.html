@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h1 style=" width: 150px; position: absolute; left : 50%; top : 7%; " >todo app </h1>
+    <div class="boxhead">
+    <P style="position: absolute; top: 20%; left: 15%; "> ADD TASK HERE :-</P>
+    <input class="box" type="text" id="taskName" placeholder="Enter task name">
+    <select  class="li" id="priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <button class="btn" onclick="addTask()">Add Task</button>
+    
+    <br><br>
+    
+    <label style="position: absolute; top : 42%; left : 15%; font-size: 20PX; " for="filter">Filter by priority:</label>
+    <select class="box2" id="filter" onchange="filterTasks()">
+        <option value="All">All</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    </div>
+    <div class="final" id="taskList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
