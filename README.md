@@ -5,7 +5,7 @@ A simple web-based notes application that uses *LocalStorage* to save and retrie
 
 ## 📽️ Demo Video
 
-<img src="output.gif">
+<img src="output.gif"> yfidtidtu
 
 ## 🌟 Features
 
