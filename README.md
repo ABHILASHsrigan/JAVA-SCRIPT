@@ -11,4 +11,5 @@ A Simple Web-based notes application that uses *LocalStorage* to save and retrie
 
 - Create and delete notes
 - Notes Persist via browser LocalStorage
-- RESPONSIVe and clean UI design
+- RESPONSIVe
+  E and clean UI design
