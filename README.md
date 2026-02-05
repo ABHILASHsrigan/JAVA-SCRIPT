@@ -1,5 +1,5 @@
 
-# (📝 Notes App)
+# 📝 Notes App
 
 A SIMPlE WEb-baSED notes application that uses *LocalStorage* to Save and retrieve notes even after page refresh.
 
