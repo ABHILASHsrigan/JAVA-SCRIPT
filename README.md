@@ -1,7 +1,7 @@
 
 # 📝 Notes App
 
-A SIMPlE WEb-bASED NOTES APPLICAtiOn THat USES *LocalStorage* TO SAvE and retrieve notes even after page refresh.
+A SIMPlE WEb-bASED NOTES APPLICAtiOn THAt USES *LocalStorage* TO SAvE and retrieve notes even after page refresh.
 
 ## 📽️ Demo Video
 
